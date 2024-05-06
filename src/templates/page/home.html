@@ -1,0 +1,10 @@
+{% include 'layout/head.html' %}
+<body class="flex flex-col min-h-screen">
+    {% include 'layout/navbar.html' %}
+    
+        {% block content %}
+        {% endblock %}
+
+    {% include 'layout/footer.html' %}
+</body>
+</html>

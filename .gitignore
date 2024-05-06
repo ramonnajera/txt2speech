@@ -1,0 +1,15 @@
+# Entorno de desarrollo
+.env
+env
+
+# Bytecode compilado
+__pycache__/
+*.pyc
+
+# node_modules
+node_modules/
+
+# Otros archivos y carpetas a ignorar
+.DS_Store
+*.swp
+*~
